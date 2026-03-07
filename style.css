@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+#GGG{
+    font-family: "Unbounded";
+    font-size: 2rem;
+    color: #120C2D;
+}
+
+body{
+    background-color: #FEF2E4;
+    color: #292521;
+    margin: 0;
+    transition: background-color 0.7s ease;
+}
+
+section{
+  height: 75vh;
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    background-color: #FEF2E4;
+    box-shadow: 0 1px 10px rgb(0, 0, 0);
+    padding: 2rem;
+    position: fixed;
+
+}
+
+main{
+    display: block;
+    font-family: "Unbounded";
+
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 0 8rem 0 8rem;
+    margin-top: 8rem;
+}
+
+#inicio{
+    width: 45%;
+    font-size: 24px;
+    display: block;
+    justify-content:space-between;
+}
+
+#inicio span, .projetos span, #curriculo span, #contato span{
+    font-size: 48px;
+}
+
+#foto_projeto{
+    padding: 0 5rem 25rem 5rem
+}
+
+#foto_projeto .descrição{
+    font-size: 24px;
+}
+.sub{
+    font-size: 32px;
+    margin-left: 2.5%;
+}
+
+.descrição{
+    font-size: 24px;
+    margin-left: 5%;
+    color: #120C2D;
+}
+
+#curriculo, #contato{
+    padding: 0 5rem 5rem 5rem;
+    color: #FEF2E4
+}
+
+#curriculo .descrição, #contato .descrição{
+    color: #FEF2E4
+}
+
+
+.logos{
+    margin-left: 5px;
+    margin-bottom: -4px;
+}
+
+
+#acessar{
+    margin-left: 2rem;
+}
+
+@media (max-width:935px) {
+    #GGG{
+    font-size: 1rem;
+    }
+
+    header{
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 1rem;
+    }
+
+
+    #apresentacao {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center; 
+        margin-bottom: 10%;
+        padding: 0 0rem 0 0rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+
+    #inicio{
+        font-size: 16px;
+    }
+
+    #foto_projeto{
+        margin-bottom: 20rem;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #curriculo, #contato{
+        padding: 0 2rem 0 2rem;
+        color: #FEF2E4
+    }
+
+    #foto_projeto .descrição{
+        font-size: 16px;
+    }
+
+    .descrição{
+        font-size: 16px;
+    }
+    
+}
