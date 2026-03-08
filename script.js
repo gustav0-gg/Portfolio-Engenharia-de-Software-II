@@ -56,14 +56,3 @@ sections.forEach(section => {
   observer.observe(section)
 })
 
-const botaoMenu = document.getElementById("menu-btn");
-const menu = document.getElementById("menu-lateral");
-const fecharMenu = document.getElementById("fechar-menu");
-
-botaoMenu.addEventListener("click", () => {
-    menu.classList.add("ativo");
-});
-
-fecharMenu.addEventListener("click", () => {
-    menu.classList.remove("ativo");
-});
